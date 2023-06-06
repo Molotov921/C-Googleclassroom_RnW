@@ -4,7 +4,7 @@ void main()
 {
     int score;
 
-    printf("Enter the score = ");
+    printf("Enter the score range (0-100) = ");
     scanf("%d",&score);
 
     switch(score/10) 
