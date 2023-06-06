@@ -9,8 +9,8 @@ void main()
     scanf("%d",&a);
     printf("Enter the second number b = \n");
     scanf("%d",&b);
-	printf("Enter the operator (+, -, *, /, %): \n");
-    scanf("%c",&opt);
+    printf("Enter the operator (+, -, *, /, %): \n");
+    scanf(" %c",&opt);
 
     switch(opt) 
     {
