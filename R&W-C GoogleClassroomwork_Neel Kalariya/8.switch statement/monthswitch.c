@@ -2,46 +2,59 @@
 #include<stdio.h>
 void main() 
 {
-    int month;
+    char ch;
 
-    printf("Enter the month number (1-12) = ");
-    scanf("%d",&month);
+    printf("Enter the month number = ");
+    scanf("%c",&char);
 
-    switch(month) {
-        case 1:
+    switch(ch) 
+    {
+        case 'j':
+        case 'J':    
             printf("January\n");
             break;
-        case 2:
+        case 'f':
+        case 'F':    
             printf("February\n");
             break;
-        case 3:
+        case 'm':
+        case 'M':    
             printf("March\n");
             break;
-        case 4:
+        case 'a':
+        case 'A':    
             printf("April\n");
             break;
-        case 5:
+        case 'y':
+        case 'Y':    
             printf("May\n");
             break;
-        case 6:
+        case 'n':
+        case 'N':    
             printf("June\n");
             break;
-        case 7:
+        case 'l':
+        case 'L':    
             printf("July\n");
             break;
-        case 8:
+        case 'g':
+        case 'G':    
             printf("August\n");
             break;
-        case 9:
+        case 's':
+        case 'S':    
             printf("September\n");
             break;
-        case 10:
+        case 'o':
+        case 'O':    
             printf("October\n");
             break;
-        case 11:
+        case 'v':
+        case 'V':    
             printf("November\n");
             break;
-        case 12:
+        case 'd':
+        case 'D':    
             printf("December\n");
             break;
         default:
